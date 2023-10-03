@@ -11,10 +11,23 @@ It user firebase email pass auth for authentication and firestore as storage
 - Monthaly transaction
 - Analytics
 
+## Tasks Completed
+- User Authentication (Completed)
+- Expense Tracking (Partial Completed i.e only adding is working)
+- Expense Categories (Completed)
+- Dashboard (UI Completed but data is not fetched for Expenses. Chart UI for daily expense is completed) On Dashboard, static data is rendered
+- Data Storage (Completed)
+- User Interface (Partial Completed i.e. weekly/monthly charts are not completed)
+- Code Quality (Completed)
+- Documentation (Completed)
 ## Tech
 - Provider Pattern (For State Management)
 - Firebase Auth (For Registration & Login)
 - Firebase Firestore (For Data Storage)
+- Flutter version 3.3.9 (Channel Stable)
+- Dart Version 2.18.5
+- Android compilesdkversion/targetsdkversion 33
+- Android minSdkVersion 19
 
  
 ## Installation
@@ -23,12 +36,14 @@ analytica_expense requires [Flutter](https://flutter.dev/) v2.0+ to run.
 follow this step for quick setup.
 
 ```sh
-git clone https://github.com/hyperonetech/analytica_expense.git
+git clone https://github.com/umerrasheed198/analytica_expense.git
 cd analytica_expense
 flutter doctor
 flutter pub get
 flutter run
 ```
+
+- For Firebase, Please setup Android/IOS app on your firebase console, then download google-service.json, and replace it in the project
 
 ## Plugins
 
